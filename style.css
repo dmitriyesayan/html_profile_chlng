@@ -1,0 +1,107 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@100;400&display=swap');
+</style>
+
+body {
+  background: rgb(170, 170, 170);
+}
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: 0B4619;
+  line-height: 1.5;
+  font-weight: 900;
+}
+p {
+  font-family: 'Raleway', sans-serif;
+  color: 116530;
+  line-height: 2;
+  font-weight: lighter;
+  font-size: larger;
+}
+
+a {
+  color: 212121;
+  text-decoration: none;
+  font-size: larger;
+  font-weight: 500
+}
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  color: 464F41
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.top-card {
+  margin: 25px;
+  padding: 50px;
+  height: 300px;
+  width: 500px;
+  box-shadow: 0 4px 15px grey;
+  background: white;
+  text-align: center;
+}
+
+.bottom-card {
+  margin: 25px;
+  height: 150px;
+  width: 500px;
+  box-shadow: 0 4px 15px grey;
+  background: white;
+  text-align: center;
+  display: inline-block;
+  padding: 50px;
+  font-size: 20px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block
+}
+
+li {
+  font-size: 40px;
+  color: grey;
+}
+li:hover {
+  color: darkolivegreen;
+}
+
+.top-card a {
+  padding: 15px;
+  background-color: grey;
+  border-radius: 4px;
+}
+.top-card a:hover {
+  background-color: darkolivegreen;
+}
